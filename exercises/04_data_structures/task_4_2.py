@@ -15,3 +15,17 @@
 """
 
 mac = "AAAA:BBBB:CCCC"
+
+mac = mac.replace(':', '.')
+
+print(mac)
+
+
+
+"""
+
+Колхозное решение
+
+print(mac[0:4]+'.'+mac[5:9]+'.'+mac[10:])
+
+"""
